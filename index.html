@@ -3,72 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document2</title>
     <meta
       name="google-site-verification"
       content="9BZyFpU4eOepWdMGUd9_Ntvxuq9MzsrfyMagamoIq2o"
     />
-    <style>
-      html,
-      body {
-        margin: 0;
-        padding: 0;
-      }
-      h1 {
-        margin-left: 0.5rem;
-      }
-      p {
-        margin-left: 0.5rem;
-        font-size: 16px;
-        font-family: sans-serif;
-      }
-      .wrapper {
-        position: relative;
-      }
-      .onscreen {
-        width: 100vw;
-        height: 200px;
-        background: red;
-        color: white;
-      }
-      .offscreen {
-        position: absolute;
-        height: 200px;
-        width: 50vw;
-        left: 100vw;
-        top: 0;
-        background: blue;
-        color: white;
-      }
-    </style>
   </head>
   <body>
-    <h1></h1>
-    <div class="wrapper">
-      <div class="onscreen">The red section is the width of the viewport.</div>
-      <div class="offscreen">
-        This section will appear off screen with shrink-to-fit=no, and on screen
-        without.
-      </div>
-    </div>
-    <p>
-      Safari will automatically zoom/shink the page's content to fit
-      automatically, unless shrink-to-fit=no is specified. Note how this
-      paragraph's appearance is influenced by the zoom level.
-    </p>
-    <p>
-      Change the meta tags on Codepen by clicking the cog icon next to "HTML".
-    </p>
-    <script type="text/javascript">
-      document.getElementsByTagName("h1")[0].innerHTML = document.querySelector(
-        'meta[name=viewport][content*="shrink-to-fit=no"]'
-      )
-        ? "shrink-to-fit=no"
-        : "Default; shrink-to-fit not specified";
-    </script>
+    This is a very special Hello from Tannaz & Ardeshir
   </body>
 </html>

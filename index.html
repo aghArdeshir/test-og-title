@@ -45,14 +45,6 @@
         color: white;
       }
     </style>
-
-    <script type="text/javascript">
-      document.getElementsByTagName("h1")[0].innerHTML = document.querySelector(
-        'meta[name=viewport][content*="shrink-to-fit=no"]'
-      )
-        ? "shrink-to-fit=no"
-        : "Default; shrink-to-fit not specified";
-    </script>
   </head>
   <body>
     <h1></h1>
@@ -71,5 +63,12 @@
     <p>
       Change the meta tags on Codepen by clicking the cog icon next to "HTML".
     </p>
+    <script type="text/javascript">
+      document.getElementsByTagName("h1")[0].innerHTML = document.querySelector(
+        'meta[name=viewport][content*="shrink-to-fit=no"]'
+      )
+        ? "shrink-to-fit=no"
+        : "Default; shrink-to-fit not specified";
+    </script>
   </body>
 </html>
